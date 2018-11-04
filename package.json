@@ -2,7 +2,7 @@
   "name": "futurama",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://<github-user-name>.github.io/<repo-name>",
+  "homepage": "http://irene-rojas.github.io/futurama",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.0",
