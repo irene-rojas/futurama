@@ -63,6 +63,7 @@ class App extends Component {
             // shuffle updated characters
             characters: this.shuffleCharacters(updatedCharacters)
           })
+          window.location.reload();
         }
       }
       console.log(this.state.score);
