@@ -1,0 +1,50 @@
+.header {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 150px;
+    /* background-color: lightblue; */
+    color: white;
+    grid-column: 1/-1;
+    z-index: 1000;
+    font-size: 18pt;
+    align-self: center;
+    place-items: center;
+    top: 0;
+  }
+  
+@font-face {
+  font-family: fr-bold;
+  src: url(./fr-bold.ttf);
+}
+
+#goodNews {
+  grid-column: 2/3;
+  text-align: center;
+  /* font-family: fr-bold; */
+  padding-top: 300px;
+}
+
+h2 {
+  margin: 0;
+  font-family: fr-bold;
+}
+
+p {
+  margin: 0;
+  font-family: fr-bold;
+  font-size: 16pt;
+}
+
+  /* #correct {
+    grid-column: 2/3;
+  } */
+  
+  #score {
+    grid-column: 3/-1;
+    margin-right: 25px;
+    font-family: fr-bold;
+    font-size: 12pt;
+    /* padding-top: 150px; */
+
+  }
+  

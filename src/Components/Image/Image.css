@@ -1,0 +1,12 @@
+img {
+  height: 200px;
+  margin: 5px;
+}
+
+.zoom {
+  transition: .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
+}

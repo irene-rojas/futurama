@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Amy Wong",
+        "image": "/assets/images/amywong.png",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Bender",
+        "image": "/assets/images/bender.png",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Farnsworth",
+        "image": "/assets/images/farnsworth.png",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Fry",
+        "image": "/assets/images/fry.png",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "KifKroker",
+        "image": "/assets/images/kif.png",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Leela",
+        "image": "/assets/images/leela.png",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Nibbler",
+        "image": "/assets/images/nibbler.png",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Zoidberg",
+        "image": "/assets/images/zoidberg.png",
+        "clicked": false
+    }
+]
