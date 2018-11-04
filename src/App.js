@@ -3,6 +3,14 @@ import Header from './Components/Header';
 import characters from "./characters.json";
 import Image from "./Components/Image";
 import Wrapper from "./Components/Wrapper";
+import amywong from "../assets/images/amywong.png";
+import bender from "../assets/images/bender.png";
+import farnsworth from "../assets/images/farnsworth.png";
+import fry from "../assets/images/fry.png";
+import kif from "../assets/images/kif.png";
+import leela from "../assets/images/leela.png";
+import nibbler from "../assets/images/nibbler.png";
+import zoidberg from "../assets/images/zoidberg.png";
 
 
 class App extends Component {
