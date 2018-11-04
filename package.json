@@ -2,7 +2,7 @@
   "name": "futurama",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://irene-rojas.github.io/futurama",
+  "homepage": "http://irenerojas.com/futurama/",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
