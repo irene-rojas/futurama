@@ -2,49 +2,49 @@
     {
         "id": 1,
         "name": "Amy Wong",
-        "image": "./images/amywong.png",
+        "image": "/assets/images/amywong.png",
         "clicked": false
     },
     {
         "id": 2,
         "name": "Bender",
-        "image": "./images/bender.png",
+        "image": "/assets/images/bender.png",
         "clicked": false
     },
     {
         "id": 3,
         "name": "Farnsworth",
-        "image": "./images/farnsworth.png",
+        "image": "/assets/images/farnsworth.png",
         "clicked": false
     },
     {
         "id": 4,
         "name": "Fry",
-        "image": "./images/fry.png",
+        "image": "/assets/images/fry.png",
         "clicked": false
     },
     {
         "id": 5,
         "name": "KifKroker",
-        "image": "./images/kif.png",
+        "image": "/assets/images/kif.png",
         "clicked": false
     },
     {
         "id": 6,
         "name": "Leela",
-        "image": "./images/leela.png",
+        "image": "/assets/images/leela.png",
         "clicked": false
     },
     {
         "id": 7,
         "name": "Nibbler",
-        "image": "./images/nibbler.png",
+        "image": "/assets/images/nibbler.png",
         "clicked": false
     },
     {
         "id": 8,
         "name": "Zoidberg",
-        "image": "./images/zoidberg.png",
+        "image": "/assets/images/zoidberg.png",
         "clicked": false
     }
 ]
