@@ -94,6 +94,7 @@ class App extends Component {
             <Image
               id={character.id}
               key={character.id}
+              name={character.name}
               image={character.image}
               handleClick={this.handleImageClick}
             />

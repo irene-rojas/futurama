@@ -9,11 +9,22 @@ import leela from "./images/leela.png";
 import nibbler from "./images/nibbler.png";
 import zoidberg from "./images/zoidberg.png";
 
+const mapNamesToImages = {
+    "Amy Wong": amywong,
+    "Bender": bender,
+    "Farnsworth": farnsworth,
+    "Fry": fry,
+    "Kif": kif,
+    "Leela": leela,
+    "Nibbler": nibbler,
+    "Zoidberg": zoidberg
+};
+
 const Image = props => (
 
     <span onClick={() => props.handleClick(props.id)}>
         <img className="zoom"
-            src={amywong}
+            src={mapNamesToImages[props.name]}
             alt={props.name}
             key={props.id}
         />
