@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import characters from "./characters.json";
 import Image from "./Components/Image";
-import Wrapper from "./Components/Wrapper";
 
 
 class App extends Component {
@@ -70,7 +69,7 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <div className="App">
 
         <Header score={this.state.score}/>
 
@@ -86,10 +85,7 @@ class App extends Component {
           ))}
         </div>
 
-
-      </Wrapper>
-      // end wrapper
-
+      </div>
 
     );
   }
