@@ -33,7 +33,8 @@ class App extends Component {
   handleImageClick = id => {
     let correctClick = false;
       // iterate through characters
-      const updatedCharacters = this.state.characters.map(character => {
+      const updatedCharacters = 
+      this.state.characters.map(character => {
         // console.log(character);
         const newCharacter = character;
           if (newCharacter.id === id) {
@@ -76,7 +77,7 @@ class App extends Component {
         // was this character clicked already?
         // if character clicked is false, make it true
         // make correctGuess = true
-        // return updated character object
+        return updatedCharacters
 
       // if correctGuess = true, increase score
       // if false, reset score
