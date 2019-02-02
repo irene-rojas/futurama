@@ -8,11 +8,13 @@ class App extends Component {
 
   state = {
     characters,
-    score: 0
+    score: 0,
   };
 
   componentDidMount() {
-    this.setState({ characters: this.shuffleCharacters(this.state.characters) });
+    this.setState({ 
+        characters: this.shuffleCharacters(this.state.characters)
+    });
   };
 
   // shuffles the characters on page reload
@@ -35,7 +37,7 @@ class App extends Component {
         // console.log(character);
         const newCharacter = character;
           if (newCharacter.id === id) {
-            console.log(newCharacter);
+            // console.log(newCharacter);
             // who I clicked on
             if (!newCharacter.clicked) {
               newCharacter.clicked = true;
@@ -74,7 +76,7 @@ class App extends Component {
         <Header className="header" score={this.state.score}/>
 
         <div className="imageGrid">
-          {this.state.characters.map(character => (
+          {this.state.characters.map((character, index) => (
             <Image
               id={character.id}
               key={character.id}
