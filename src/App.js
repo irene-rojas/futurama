@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import characters from "./characters.json";
 import Image from "./Components/Image";
-
+import "./App.css";
 
 class App extends Component {
 
@@ -71,7 +71,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <Header score={this.state.score}/>
+        <Header className="header" score={this.state.score}/>
 
         <div className="imageGrid">
           {this.state.characters.map(character => (

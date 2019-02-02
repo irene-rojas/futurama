@@ -1,0 +1,19 @@
+.App {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 1fr);
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.imageGrid {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: auto;
+}

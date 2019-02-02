@@ -1,6 +1,13 @@
 img {
+    height: 160px;
+    margin: 5px;
+}
+
+@media (min-width: 1025px) {
+img {
   height: 200px;
   margin: 5px;
+}
 }
 
 .zoom {
