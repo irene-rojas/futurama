@@ -68,22 +68,10 @@ class App extends Component {
         }
       }
       console.log(this.state.score);
-      // console.log(correctClick);
-      // console.log(updatedCharacters);
-        // assign current character to temporary variable to update if needed
-        // detect which character was clicked
-        // compare id of current character with id of image clicked
-        // use map since already loops through array and returns result of that function
-        // was this character clicked already?
-        // if character clicked is false, make it true
-        // make correctGuess = true
         return updatedCharacters
 
-      // if correctGuess = true, increase score
-      // if false, reset score
   };
 
-  // render goes last
   render() {
     return (
       <Wrapper>
