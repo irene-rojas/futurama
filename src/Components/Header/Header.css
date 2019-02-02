@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 100px 1fr 100px;
     grid-template-rows: 150px;
-    /* background-color: lightblue; */
     color: white;
     grid-column: 1/-1;
     z-index: 1000;
@@ -20,7 +19,6 @@
 #goodNews {
   grid-column: 2/3;
   text-align: center;
-  /* font-family: fr-bold; */
   padding-top: 300px;
 }
 
@@ -35,16 +33,10 @@ p {
   font-size: 16pt;
 }
 
-  /* #correct {
-    grid-column: 2/3;
-  } */
-  
-  #score {
+#score {
     grid-column: 3/-1;
     margin-right: 25px;
     font-family: fr-bold;
     font-size: 12pt;
-    /* padding-top: 150px; */
-
-  }
+}
   

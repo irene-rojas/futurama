@@ -73,7 +73,7 @@ class App extends Component {
 
         <Header score={this.state.score}/>
 
-        <div className="imageGrid">
+        {/* <div className="imageGrid">
           {this.state.characters.map(character => (
             <Image
               id={character.id}
@@ -83,7 +83,7 @@ class App extends Component {
               handleClick={this.handleImageClick}
             />
           ))}
-        </div>
+        </div> */}
 
       </div>
 
