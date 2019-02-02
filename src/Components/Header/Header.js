@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Header.css";
 
-const Header = props => (
+const Header = (props) => (
 
         <div className="header">
             <div className="goodNews" id="goodNews">
@@ -12,7 +12,6 @@ const Header = props => (
                     <br></br>
                     <div className="score" id="score">Score: {props.score}</div>
             </div>
-            {/* <div className="name" id="name">{props.name}</div> */}
 
         </div>
 

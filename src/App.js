@@ -7,13 +7,11 @@ import Wrapper from "./Components/Wrapper";
 
 class App extends Component {
 
-  // connect this.state.characters to characters.json
   state = {
     characters,
     score: 0
   };
 
-  // did the component mount?
   componentDidMount() {
     this.setState({ characters: this.shuffleCharacters(this.state.characters) });
   };
@@ -56,9 +54,7 @@ class App extends Component {
       }
       else {
         if (!correctClick) {
-          // update setState
           this.setState({
-            // reset game. set score to 0
             score: 0,
             // go through all characters and update click property to false
             // shuffle updated characters
