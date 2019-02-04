@@ -1,7 +1,7 @@
 {
-  "main.css": "/futurama/static/css/main.9d0e255a.chunk.css",
-  "main.js": "/futurama/static/js/main.a482b4bf.chunk.js",
-  "main.js.map": "/futurama/static/js/main.a482b4bf.chunk.js.map",
+  "main.css": "/futurama/static/css/main.f6a7dcd2.chunk.css",
+  "main.js": "/futurama/static/js/main.7cc5a135.chunk.js",
+  "main.js.map": "/futurama/static/js/main.7cc5a135.chunk.js.map",
   "static/js/1.da284b7a.chunk.js": "/futurama/static/js/1.da284b7a.chunk.js",
   "static/js/1.da284b7a.chunk.js.map": "/futurama/static/js/1.da284b7a.chunk.js.map",
   "runtime~main.js": "/futurama/static/js/runtime~main.3142e373.js",
@@ -14,10 +14,9 @@
   "static/media/nibbler.png": "/futurama/static/media/nibbler.de8daaf5.png",
   "static/media/zoidberg.png": "/futurama/static/media/zoidberg.4b988e52.png",
   "static/media/Header.css": "/futurama/static/media/fr-bold.3d20efac.ttf",
-  "static/media/Wrapper.css": "/futurama/static/media/mars_background1.baa98ce7.jpg",
   "static/media/bender.png": "/futurama/static/media/bender.efb7e803.png",
-  "static/css/main.9d0e255a.chunk.css.map": "/futurama/static/css/main.9d0e255a.chunk.css.map",
+  "static/css/main.f6a7dcd2.chunk.css.map": "/futurama/static/css/main.f6a7dcd2.chunk.css.map",
   "index.html": "/futurama/index.html",
-  "precache-manifest.d78e2b3ce1429b4940d69dfb8578684e.js": "/futurama/precache-manifest.d78e2b3ce1429b4940d69dfb8578684e.js",
+  "precache-manifest.64822ce13e83a5f47780bbb62807ffb6.js": "/futurama/precache-manifest.64822ce13e83a5f47780bbb62807ffb6.js",
   "service-worker.js": "/futurama/service-worker.js"
 }

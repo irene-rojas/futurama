@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/futurama/static/media/fry.5a5e91ec.png"
   },
   {
-    "revision": "a482b4bf290355314470",
-    "url": "/futurama/static/css/main.9d0e255a.chunk.css"
+    "revision": "7cc5a135c387f7847a3c",
+    "url": "/futurama/static/css/main.f6a7dcd2.chunk.css"
   },
   {
     "revision": "da284b7abfb827a708eb",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/futurama/static/media/farnsworth.41e3a237.png"
   },
   {
-    "revision": "a482b4bf290355314470",
-    "url": "/futurama/static/js/main.a482b4bf.chunk.js"
+    "revision": "7cc5a135c387f7847a3c",
+    "url": "/futurama/static/js/main.7cc5a135.chunk.js"
   },
   {
     "revision": "0e82fdafa44fb35abab73b3ccff99faa",
@@ -52,11 +52,7 @@ self.__precacheManifest = [
     "url": "/futurama/static/media/fr-bold.3d20efac.ttf"
   },
   {
-    "revision": "baa98ce7869fb86fe97db6c4e5b032cb",
-    "url": "/futurama/static/media/mars_background1.baa98ce7.jpg"
-  },
-  {
-    "revision": "56b39ff34b8f408456da180635e41c66",
+    "revision": "85e0f5ee2455b5a2c50c3c6208776990",
     "url": "/futurama/index.html"
   }
 ];
