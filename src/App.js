@@ -2,20 +2,19 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import characters from "./characters.json";
 import Image from "./Components/Image";
-import Wrapper from "./Components/Wrapper";
-
+import "./App.css";
 
 class App extends Component {
 
-  // connect this.state.characters to characters.json
   state = {
     characters,
-    score: 0
+    score: 0,
   };
 
-  // did the component mount?
   componentDidMount() {
-    this.setState({ characters: this.shuffleCharacters(this.state.characters) });
+    this.setState({ 
+        characters: this.shuffleCharacters(this.state.characters)
+    });
   };
 
   // shuffles the characters on page reload
@@ -33,11 +32,12 @@ class App extends Component {
   handleImageClick = id => {
     let correctClick = false;
       // iterate through characters
-      const updatedCharacters = this.state.characters.map(character => {
+      const updatedCharacters = 
+      this.state.characters.map(character => {
         // console.log(character);
         const newCharacter = character;
           if (newCharacter.id === id) {
-            console.log(newCharacter);
+            // console.log(newCharacter);
             // who I clicked on
             if (!newCharacter.clicked) {
               newCharacter.clicked = true;
@@ -55,9 +55,7 @@ class App extends Component {
       }
       else {
         if (!correctClick) {
-          // update setState
           this.setState({
-            // reset game. set score to 0
             score: 0,
             // go through all characters and update click property to false
             // shuffle updated characters
@@ -67,30 +65,18 @@ class App extends Component {
         }
       }
       console.log(this.state.score);
-      // console.log(correctClick);
-      // console.log(updatedCharacters);
-        // assign current character to temporary variable to update if needed
-        // detect which character was clicked
-        // compare id of current character with id of image clicked
-        // use map since already loops through array and returns result of that function
-        // was this character clicked already?
-        // if character clicked is false, make it true
-        // make correctGuess = true
-        // return updated character object
+        return updatedCharacters
 
-      // if correctGuess = true, increase score
-      // if false, reset score
   };
 
-  // render goes last
   render() {
     return (
-      <Wrapper>
+      <div className="App">
 
-        <Header score={this.state.score}/>
+        <Header className="header" score={this.state.score}/>
 
         <div className="imageGrid">
-          {this.state.characters.map(character => (
+          {this.state.characters.map((character, index) => (
             <Image
               id={character.id}
               key={character.id}
@@ -101,10 +87,7 @@ class App extends Component {
           ))}
         </div>
 
-
-      </Wrapper>
-      // end wrapper
-
+      </div>
 
     );
   }

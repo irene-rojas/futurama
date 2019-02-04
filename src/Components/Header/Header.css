@@ -1,15 +1,13 @@
 .header {
     display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: 150px;
-    /* background-color: lightblue; */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
     color: white;
-    grid-column: 1/-1;
-    z-index: 1000;
     font-size: 18pt;
     align-self: center;
-    place-items: center;
+    /* place-items: center; */
     top: 0;
+    text-align: center;
   }
   
 @font-face {
@@ -17,34 +15,28 @@
   src: url(./fr-bold.ttf);
 }
 
-#goodNews {
-  grid-column: 2/3;
-  text-align: center;
-  /* font-family: fr-bold; */
-  padding-top: 300px;
-}
-
 h2 {
-  margin: 0;
   font-family: fr-bold;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 p {
-  margin: 0;
   font-family: fr-bold;
   font-size: 16pt;
+  grid-column: 1/-1;
+  grid-row: 2/3;
+  margin: 15px;
 }
 
-  /* #correct {
-    grid-column: 2/3;
-  } */
-  
-  #score {
-    grid-column: 3/-1;
-    margin-right: 25px;
+.score {
+    grid-column: 1/-1;
+    grid-row: 3/4;
     font-family: fr-bold;
     font-size: 12pt;
-    /* padding-top: 150px; */
-
-  }
+    text-align: center;
+    margin: 5px;
+}
   
