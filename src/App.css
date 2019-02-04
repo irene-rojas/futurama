@@ -20,7 +20,7 @@
 }
 
 /* desktop */
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
     .App {
         margin: 0 auto;
         display: grid;
