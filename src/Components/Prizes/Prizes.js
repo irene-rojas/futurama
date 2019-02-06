@@ -26,7 +26,7 @@ class Prizes extends Component {
                 id: "jars",
                 src: jars,
                 alt: "jars",
-                name: "your head in a jar!"
+                name: "a head in a jar!"
             },
             {
                 id: "ship",
