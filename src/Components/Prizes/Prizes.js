@@ -64,6 +64,7 @@ class Prizes extends Component {
                 You won {this.state.name}
                 <br></br>
                     <img 
+                        className="prizeImg"
                         id={this.state.id}
                         src={this.state.src}
                         alt={this.state.alt}
