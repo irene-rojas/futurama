@@ -9,6 +9,8 @@ const Header = (props) => (
             <p>Try to click on each character only once. 
                 <br></br>
                 If you click on it twice, the score resets.
+                <br></br>
+                If the score reaches 8, you win a prize!
             </p>
                 <br></br>
             <div className="score">Score: {props.score}</div>

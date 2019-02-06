@@ -1,0 +1,9 @@
+.prizeDiv {
+    color: white;
+    font-family: fr-bold;
+}
+
+@font-face {
+    font-family: fr-bold;
+    src: url(./fr-bold.ttf);
+  }

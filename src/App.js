@@ -89,7 +89,7 @@ class App extends Component {
         </div>
 
         {this.state.score === 8 &&
-            <Prizes />
+            <Prizes className="prize"/>
         }
 
       </div>

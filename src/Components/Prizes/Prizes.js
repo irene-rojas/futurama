@@ -3,6 +3,7 @@ import buggalo from "./images/buggalo.png";
 import clone from "./images/clone.jpg";
 import jars from "./images/jars.png";
 import ship from "./images/ship.jpg";
+import "./Prizes.css";
 
 
 class Prizes extends Component {
@@ -13,25 +14,25 @@ class Prizes extends Component {
                 id: "buggalo",
                 src: buggalo,
                 alt: "buggalo",
-                name: "Buggalo"
+                name: "Buggalo!"
             },
             {
                 id: "clone",
                 src: clone,
                 alt: "clone",
-                name: "A clone of your own"
+                name: "A clone of your own!"
             },
             {
                 id: "jars",
                 src: jars,
                 alt: "jars",
-                name: "Your head in a jar"
+                name: "Your head in a jar!"
             },
             {
                 id: "ship",
                 src: ship,
                 alt: "ship",
-                name: "The Planet Express Ship"
+                name: "The Planet Express Ship!"
             }
         ],
         selectedPrize: [
@@ -59,14 +60,17 @@ class Prizes extends Component {
     render() {
         return (
 
-            <div>
-                <img 
-                    id={this.state.id}
-                    src={this.state.src}
-                    alt={this.state.alt}
-                />
+            <div className="prizeDiv">
+                You won
                 <br></br>
-                {this.state.name}
+                    <img 
+                        className="yourPrize"
+                        id={this.state.id}
+                        src={this.state.src}
+                        alt={this.state.alt}
+                    />
+                <br></br>
+                    {this.state.name}
 
 
             </div>
