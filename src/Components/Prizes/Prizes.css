@@ -1,6 +1,8 @@
-.prizeDiv {
+.winningPrize {
     color: white;
     font-family: fr-bold;
+    /* background-color: white;     */
+
 }
 
 @font-face {

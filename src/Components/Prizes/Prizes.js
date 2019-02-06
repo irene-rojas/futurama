@@ -60,7 +60,7 @@ class Prizes extends Component {
     render() {
         return (
 
-            <div className="yourPrize">
+            <div className="winningPrize">
                 You won {this.state.name}
                 <br></br>
                     <img 
