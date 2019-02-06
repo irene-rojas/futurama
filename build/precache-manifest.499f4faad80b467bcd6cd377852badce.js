@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "5a5e91ec2b9ceb2d1c2213f62256740f",
-    "url": "/futurama/static/media/fry.5a5e91ec.png"
+    "revision": "ae6bd35ea63114051ed845a4b5b986e9",
+    "url": "/futurama/static/media/leela.ae6bd35e.png"
   },
   {
-    "revision": "7cc5a135c387f7847a3c",
-    "url": "/futurama/static/css/main.f6a7dcd2.chunk.css"
+    "revision": "4dc75f7023b9388d1c1b",
+    "url": "/futurama/static/css/main.04f916d3.chunk.css"
   },
   {
-    "revision": "da284b7abfb827a708eb",
-    "url": "/futurama/static/js/1.da284b7a.chunk.js"
+    "revision": "9fefa229b7416825b89a",
+    "url": "/futurama/static/js/1.9fefa229.chunk.js"
   },
   {
     "revision": "3142e3735f515f6f2d21",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/futurama/static/media/farnsworth.41e3a237.png"
   },
   {
-    "revision": "7cc5a135c387f7847a3c",
-    "url": "/futurama/static/js/main.7cc5a135.chunk.js"
+    "revision": "5a5e91ec2b9ceb2d1c2213f62256740f",
+    "url": "/futurama/static/media/fry.5a5e91ec.png"
   },
   {
     "revision": "0e82fdafa44fb35abab73b3ccff99faa",
     "url": "/futurama/static/media/kif.0e82fdaf.png"
   },
   {
-    "revision": "ae6bd35ea63114051ed845a4b5b986e9",
-    "url": "/futurama/static/media/leela.ae6bd35e.png"
+    "revision": "4dc75f7023b9388d1c1b",
+    "url": "/futurama/static/js/main.4dc75f70.chunk.js"
   },
   {
     "revision": "de8daaf502b4dfeb262827222c7910de",
@@ -48,11 +48,27 @@ self.__precacheManifest = [
     "url": "/futurama/static/media/zoidberg.4b988e52.png"
   },
   {
+    "revision": "880e6940f88b7236af588caf37820ca6",
+    "url": "/futurama/static/media/buggalo.880e6940.png"
+  },
+  {
+    "revision": "90ce2c5146034aa7feddb1c0174c254c",
+    "url": "/futurama/static/media/clone.90ce2c51.jpg"
+  },
+  {
+    "revision": "cb0bdd4d7abf1981a67b06f065f73489",
+    "url": "/futurama/static/media/jars.cb0bdd4d.png"
+  },
+  {
+    "revision": "a8983c2f78bcff013e126e3e968d83b0",
+    "url": "/futurama/static/media/ship.a8983c2f.jpg"
+  },
+  {
     "revision": "3d20efacfeaf02b55cc8b7b9f1f4d5cd",
     "url": "/futurama/static/media/fr-bold.3d20efac.ttf"
   },
   {
-    "revision": "85e0f5ee2455b5a2c50c3c6208776990",
+    "revision": "210b542af27ba61bbb44de28cb8b6e33",
     "url": "/futurama/index.html"
   }
 ];
