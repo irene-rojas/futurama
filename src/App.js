@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './Components/Header';
 import characters from "./characters.json";
 import Image from "./Components/Image";
+import Prizes from "./Components/Prizes/Prizes.js";
 import "./App.css";
 
 class App extends Component {
@@ -86,6 +87,10 @@ class App extends Component {
             />
           ))}
         </div>
+
+        {this.state.score === 8 &&
+            <Prizes />
+        }
 
       </div>
 
