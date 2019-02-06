@@ -15,22 +15,6 @@
   src: url(./fr-bold.ttf);
 }
 
-h2 {
-  font-family: fr-bold;
-  grid-column: 1/-1;
-  grid-row: 1/2;
-  margin-top: 15px;
-  margin-bottom: 0px;
-}
-
-p {
-  font-family: fr-bold;
-  font-size: 16pt;
-  grid-column: 1/-1;
-  grid-row: 2/3;
-  margin: 15px;
-}
-
 .score {
     grid-column: 1/-1;
     grid-row: 3/4;
@@ -40,3 +24,9 @@ p {
     margin: 5px;
 }
   
+/* mobile */
+@media (max-width: 768px) {
+    .score {
+font-size: 10pt;    
+}
+} 
