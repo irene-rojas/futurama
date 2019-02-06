@@ -3,8 +3,33 @@
     font-family: fr-bold;
 }
 
-.prizeImg {
+.prizesP {
+    margin: 0px;
+    font-size: 12pt;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+    .prizeImg {
+        height: 100px;
+        margin: 10px;
+    }
+} 
+
+/* ipad */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .prizeImg {
+        height: 150px;
+        margin: 5px;
+    }
+}   
+
+/* desktop */
+@media (min-width: 1025px) {
+    .prizeImg {
     height: 200px;
+    margin: 5px;
+    }
 }
 
 @font-face {

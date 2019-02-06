@@ -8,6 +8,22 @@
     text-align: center;
 }
 
+p {
+    font-family: fr-bold;
+    font-size: 16pt;
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    margin: 15px;
+}
+
+h2 {
+    font-family: fr-bold;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
 .header {
     grid-column: 1/-1;
     grid-row: 1/2;
@@ -39,13 +55,15 @@
         grid-row: 2/3;
         grid-template-columns: repeat(3, auto);
         grid-template-rows: auto;
+        width: 400px;
+        justify-self: center;
     }
 
-    .prize {
+    /* .prize {
         grid-column: 2/3;
         grid-row: 1/2;
         padding-bottom: 5px;
-    }
+    } */
 
     .imageGrid {
         grid-column: 2/3;

@@ -61,7 +61,7 @@ class Prizes extends Component {
         return (
 
             <div className="winningPrize">
-                You won {this.state.name}
+                <p className="prizesP">You won {this.state.name}</p>
                 <br></br>
                     <img 
                         className="prizeImg"
@@ -71,7 +71,7 @@ class Prizes extends Component {
                     />
                 <br></br>
                 <br></br>
-                    Click any character to play again!
+                <p className="prizesP">Click any character to play again!</p>
             </div>
 
         )
