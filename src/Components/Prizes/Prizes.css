@@ -1,11 +1,12 @@
 .winningPrize {
     color: white;
     font-family: fr-bold;
+    height: 150px;
 }
 
 .prizesP {
     margin: 0px;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 /* mobile */

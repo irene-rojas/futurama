@@ -24,3 +24,9 @@
     margin: 5px;
 }
   
+/* mobile */
+@media (max-width: 768px) {
+    .score {
+font-size: 10pt;    
+}
+} 

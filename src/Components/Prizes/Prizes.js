@@ -14,7 +14,7 @@ class Prizes extends Component {
                 id: "buggalo",
                 src: buggalo,
                 alt: "buggalo",
-                name: "Buggalo!"
+                name: "a buggalo!"
             },
             {
                 id: "clone",
@@ -62,14 +62,12 @@ class Prizes extends Component {
 
             <div className="winningPrize">
                 <p className="prizesP">You won {this.state.name}</p>
-                <br></br>
                     <img 
                         className="prizeImg"
                         id={this.state.id}
                         src={this.state.src}
                         alt={this.state.alt}
                     />
-                <br></br>
                 <br></br>
                 <p className="prizesP">Click any character to play again!</p>
             </div>

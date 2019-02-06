@@ -16,11 +16,16 @@ p {
     margin: 15px;
 }
 
+/* mobile */
+@media (max-width: 768px) {
+    p, .prizesP {
+font-size: 10pt;    }
+} 
+
 h2 {
     font-family: fr-bold;
     grid-column: 1/-1;
     grid-row: 1/2;
-    margin-top: 15px;
     margin-bottom: 0px;
 }
 
@@ -35,6 +40,13 @@ h2 {
     width: auto;
 }
 
+/* ipad */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .App {
+        grid-template-rows: 300px 1fr 225px;
+    }
+}  
+
 
 /* desktop */
 @media (min-width: 1025px) {
@@ -42,7 +54,7 @@ h2 {
         margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, auto);
-        grid-template-rows: 300px 1fr 250px;
+        grid-template-rows: 300px 1fr 225px;
     }
 
     .header {
