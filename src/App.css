@@ -19,6 +19,7 @@
     width: auto;
 }
 
+
 /* desktop */
 @media (min-width: 1025px) {
     .App {
@@ -33,10 +34,23 @@
         grid-row: 1/2;
     }
 
+    .prizeDiv {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: auto;
+    }
+
+    .prize {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
     .imageGrid {
         grid-column: 2/3;
         grid-row: 3/4;
         width: auto;
     }
+
 }
 /* end desktop */

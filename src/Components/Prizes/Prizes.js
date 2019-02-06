@@ -20,19 +20,19 @@ class Prizes extends Component {
                 id: "clone",
                 src: clone,
                 alt: "clone",
-                name: "A clone of your own!"
+                name: "a clone of your own!"
             },
             {
                 id: "jars",
                 src: jars,
                 alt: "jars",
-                name: "Your head in a jar!"
+                name: "your head in a jar!"
             },
             {
                 id: "ship",
                 src: ship,
                 alt: "ship",
-                name: "The Planet Express Ship!"
+                name: "the Planet Express Ship!"
             }
         ],
         selectedPrize: [
@@ -60,19 +60,17 @@ class Prizes extends Component {
     render() {
         return (
 
-            <div className="prizeDiv">
-                You won
+            <div className="yourPrize">
+                You won {this.state.name}
                 <br></br>
                     <img 
-                        className="yourPrize"
                         id={this.state.id}
                         src={this.state.src}
                         alt={this.state.alt}
                     />
                 <br></br>
-                    {this.state.name}
-
-
+                <br></br>
+                    Click any character to play again!
             </div>
 
         )
