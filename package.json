@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://irene-rojas.github.io/futurama",
   "dependencies": {
+    "eslint-utils": "^1.4.1",
     "handlebars": "^4.1.0",
     "js-yaml": "^3.13.1",
     "lodash": "^4.17.13",
